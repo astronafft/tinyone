@@ -6,24 +6,33 @@ body {
 }
 .wrapper {
 	width: 960px;
-	height: 740px;
-	margin: 0 auto;
-	background-color: transparent;
+    height: 772px;
+    margin: 0 auto;
+    padding-top: 1px;
+    background-color: transparent;
 }
 .slider {
 	background-color: #fcdb00;
 	width: 100%;
 	height: 740px;
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: relative;
+	top: 59px;
+	left: 19px;
 }
 .logo {
     color:#010101;
     text-align: left;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 24px;
     height: 43px;
     width: 200px;
+
 }
-.logo-img:after{
+.logo:after{
 	display: inline-block;
     vertical-align: top;
     content: "tinyone";
@@ -31,18 +40,20 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-top: 2px;
 }
 
 nav {
 	float:right;
-	margin-right: 10px;
+	margin-right: 9px;
 	height: 28px;
 	position: relative;
-	top: -50px;
+	top: -49px;
+	left: -1px;
 }
 
-li {
+nav li {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
 	font-size: 22px;
@@ -56,8 +67,9 @@ a.a-nav {
 }
 
 .header-content {
-	margin-top: 150px;
-	width: 410px;
+	margin-top: 160px;
+	margin-left: 16px;
+	width: 390px;
 	height: 200px;
 	text-align: left;
 }
@@ -69,7 +81,6 @@ a.a-nav {
     padding: 5px 0px 5px 10px;
     position: relative;
     top: -40px;
-
 }
 .header-content-2 {
 	font-size: 20px;
@@ -77,7 +88,8 @@ a.a-nav {
     color: #313841;
     padding: 5px 0px 5px 10px;
     position: relative;
-    top: -70px;
+    top: -56px;
+    line-height: 1.2;
 }
 .header-content-3 {
 	font-size: 16px;
@@ -85,15 +97,15 @@ a.a-nav {
 	color: #555555;
 	padding: 5px 0px 5px 10px;
     position: relative;
-    top: -85px;
+    top: -63px;
 }
 .iPad {
 	width:317px ;
 	height: 470px;
-	margin-left: 600px;
+	margin-left: 583px;
     background: url("d://tinyone/img/Base.png") no-repeat;
     position: relative;
-    top: -450px;
+    top: -397px;
 
 }
 .iPad-screen {
@@ -101,9 +113,8 @@ a.a-nav {
 	height: 383px;
     background: url("D:/tinyone/img/1024x768.png") no-repeat;
     position: relative;
-    left: 15px;
-    top: 45px;
-
+    left: 13px;
+    top: 44px;
 }
 .iPad-screen:after {
 	content: "";
@@ -135,19 +146,33 @@ a.a-nav {
 	width:250px;
 	height:45px;
 	position: relative;
-	top: -80px;
-	margin: 20px;
+	top: -47px;
+    left: 8px;
 }
+
 .icon-img {
 	padding-right: 40px;
+}
+.icon-img-2 {
+	margin-left: 34px;
+    position: relative;
+    top: 3px;
+}
+.icon-img-3 {
+	margin-left: 34px;
+    position: relative;
+    top: 2px;
 }
 .slider-bullets {
 	width: 56px;
 	height: 14px;
 	position: relative;
-	left: 420px;
-	top: -350px;
+	left: 441px;
+    top: -353px;
 	display: inline-block;
+}
+.slider-bullets-com {
+	margin-right: 3px;
 }
 .features {
 	background-color: #ffffff;
@@ -157,9 +182,12 @@ a.a-nav {
 .features-h1 {
 	font-family: 'PT Sans', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
     color: #010101;
+    position: relative;
+    left: 24px;
+    top: 77px;
 }
 .features-p {
 	font-family: 'PT Sans', sans-serif;
@@ -168,10 +196,10 @@ a.a-nav {
     text-align: center;
     color: #656a71;
     height: 42px;
-    width: 734px;
+    width: 745px;
     position: relative;
-    left: 130px;
-    top: -20px;
+    left: 131px;
+    top: 53px;
 }
 .featured-grid {
 	font-family: 'PT Sans', sans-serif;
@@ -187,19 +215,30 @@ a.a-nav {
     line-height: 0px;
 }
 .row-1 {
-	width: 912px;
+	width: 920px;
 	height: 120px;
 	display: inline-block;
 	position: relative;
-	left: 20px;
-	top: 100px;
+	left: 47px;
+    top: 147px;
 }
 .featured-text {
 	width: 220px;
 	height: 130px;
-	position: relative;
-	left: 65px;
-	top: -55px;
+	position: relative
+}
+
+.f-t-1 {
+	left: 67px;
+    top: -50px;
+}
+.f-t-2 {
+    left: 72px;
+    top: -55px;
+}
+.f-t-3 {
+    top: -51px;
+    left: 70px;
 }
 .featured-1 {
 	height: 120px;
@@ -210,49 +249,67 @@ a.a-nav {
 	height: 120px;
 	width: 286px;
 	float: left;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .featured-3 {
 	height: 120px;
 	width: 286px;
 	float: right;
+	position: relative;
+    left: -2px;
 }
 .row-2 {
 	width: 912px;
 	height: 120px;
 	display: inline-block;
 	position: relative;
-	left: 20px;
-	top: 200px;
+	left: 18px;
+    top: 276px;
 }
-.featured-text {
-	width: 220px;
-	height: 130px;
-	position: relative;
-	left: 65px;
+.f-t-4 {
+	top: -54px;
+    left: 77px;
+}
+.f-t-5 {
 	top: -55px;
+    left: 76px;
+}
+.f-t-6 {
+	left: 65px;
+    top: -54px;
 }
 .featured-4 {
 	height: 120px;
 	width: 286px;
 	float: left;
+	position: relative;
+    left: 19px;
+    top: -47px;
 }
 .featured-5 {
 	height: 120px;
 	width: 286px;
 	float: left;
 	margin-left: 20px;
+	margin-left: 56px;
+    margin-top: -47px;
 }
 .featured-6 {
 	height: 120px;
 	width: 286px;
 	float: right;
+	position: relative;
+    top: -124px;
+    left: 40px;
 }
 
 footer {
 	background-color: #010101;
 	width: 100%;
-	height: 760px;
+	margin: 0 auto;
+}
+.subcrible {
+	margin: 0 auto;
 }
 .subcrible-h1 {
   font-size: 32px;
@@ -261,7 +318,8 @@ footer {
   color: #fcdb00;
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 52px;
+  left: 21px;
 }
 .subcrible-p {
   font-size: 20px;
@@ -271,13 +329,15 @@ footer {
   line-height: 1.2;
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 30px;
+  left: 102px;
+  width: 800px;
 }
 form {
 	text-align: center;
-	margin-top: 30px;
 	position: relative;
-    top: 60px;
+    top: 49px;
+    left: 17px;
 }
 #email-field {
 	width: 583px;
@@ -288,7 +348,8 @@ form {
     font-family: 'PT Sans', sans-serif;
     color: #898989;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 23px;
+    margin-right: 5px;
 }
 #submit-field {
 	width: 128px;
@@ -305,12 +366,12 @@ form {
     text-align: center;
  }
  .social-connect {
- 	width: 241px;
- 	height: 36px;
+ 	width: 270px;
+    height: 36px;
  	text-align: center;
  	position: relative;
- 	left: 320px;
- 	top: 80px;
+ 	left: 353px;
+    top: 110px;
  }
 
  .social-icon {
@@ -318,7 +379,7 @@ form {
  	height: 36px;
  	background-color: #010101;
  	display: inline-block;
- 	margin-right: 15px;
+ 	margin-right: 28px;
  }
   .social-fb {
  	background-image: url("d://tinyone/img/facebook ico.png");
@@ -336,8 +397,13 @@ form {
  	width: 840px;
  	height: 102px;
  	position: relative;
- 	top: 300px;
- 	left: 60px;
+ 	top: 245px;
+    left: 45px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+
  }
  .footer-adress {
  	width:190px;
@@ -345,7 +411,7 @@ form {
  	color: #ffffff;
  	font-size: 16px;
     font-family: 'PT Sans', sans-serif;
-    line-height: 0.5;
+    line-height: 0.39;
     position: relative;
     top: -15px;
     float: left;
@@ -355,59 +421,17 @@ a.a-footer {
     text-decoration: none;
 }
 
-.links-group-1 {
-	width:70px;
- 	height: 52px;
- 	color: #ffffff;
- 	font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    line-height: 1.5;
+.links-group {
+	width: 69px;
+    height: 52px;
+    line-height: 1.25;
     position: relative;
-    top:-6px;
-    margin-left: 70px;
+    top: -22px;
+    margin-left: 75px;
+    margin-right: 17px;
     float: left;
     text-align: left;
-
 }
-.links-group-2 {
-	width:70px;
- 	height: 52px;
- 	color: #ffffff;
- 	font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    line-height: 1.5;
-    position: relative;
-    top:-6px;
-    margin-left: 70px;
-    float: left;
-    text-align: left;
-
-}
-.links-group-3 {
-	width:70px;
- 	height: 52px;
- 	color: #ffffff;
- 	font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    line-height: 1.5;
-    position: relative;
-    top:-6px;
-    margin-left: 70px;
-    float: left;
-    text-align: left;
-
-}
-.links-group-4 {
-	width:70px;
- 	height: 52px;
- 	color: #ffffff;
- 	font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    line-height: 1.5;
-    position: relative;
-    top:-6px;
-    margin-left: 70px;
-    float: left;
-    text-align: left;
-
+li {
+	list-style: none;
 }
